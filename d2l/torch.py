@@ -50,7 +50,7 @@ def use_svg_display():
     """Use the svg format to display a plot in Jupyter.
 
     Defined in :numref:`sec_calculus`"""
-    backend_inline.set_matplotlib_formats('svg')
+    backend_inline.set_matplotlib_formats('png')
 
 def set_figsize(figsize=(3.5, 2.5)):
     """Set the figure size for matplotlib.
